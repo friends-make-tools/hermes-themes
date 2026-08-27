@@ -1,0 +1,36 @@
+#carbon-gray90 — built from IBM Carbon Design System color tokens (Apache-2.0)
+description: IBM Carbon dark theme — gray-90 surface, blue-40 accent
+
+colors:
+  background: "#262626"
+  ui_accent: "#78a9ff"
+  banner_accent: "#78a9ff"
+  banner_title: "#a6c8ff"
+  banner_text: "#f4f4f4"
+  ui_text: "#f4f4f4"
+  banner_dim: "#8d8d8d"
+  banner_border: "#525252"
+  ui_border: "#525252"
+  ui_ok: "#42be65"
+  ui_warn: "#f1c21b"
+  ui_error: "#ff8389"
+  prompt: "#78a9ff"
+  input_rule: "#78a9ff"
+  response_border: "#78a9ff"
+  status_bar_bg: "#393939"
+  status_bar_text: "#f4f4f4"
+  status_bar_good: "#42be65"
+  status_bar_warn: "#f1c21b"
+  status_bar_critical: "#ff8389"
+  session_label: "#a6c8ff"
+  session_border: "#525252"
+  syntax_string: "#3ddbd9"
+  syntax_number: "#be95ff"
+  syntax_keyword: "#ff7eb6"
+  syntax_comment: "#8d8d8d"
+
+branding:
+  agent_name: Hermes Agent
+  prompt_symbol: "❯"
+
+tool_prefix: "┊"

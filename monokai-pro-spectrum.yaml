@@ -1,0 +1,51 @@
+# Hermes skin — Monokai Pro (Filter Spectrum)
+# Palette derived from logicseed/monokai-pro-themes Chromium manifest:
+#   bg #222222 / deep frame #191919, fg #F7F1FF,
+#   accent orange #FD9353, link yellow #FCE566.
+name: monokai-pro-spectrum
+description: Monokai Pro (Filter Spectrum) — charcoal #222 with orange and yellow accents
+
+colors:
+  # Base surface — Monokai Pro toolbar/NTP background
+  background: "#222222"
+
+  # Brand accent — Manifesto filter spectrum orange (tab_text)
+  ui_accent: "#fd9353"
+  banner_accent: "#fd9353"
+
+  # Text hierarchy
+  banner_title: "#fce566"   # headings — NTP link yellow
+  banner_text: "#f7f1ff"    # body foreground (bookmark_text)
+  ui_text: "#f7f1ff"
+  banner_dim: "#8b888f"     # muted (tab_background_text)
+  banner_border: "#363537"  # button_background as border tone
+  ui_border: "#363537"
+
+  # Semantic status — Monokai Pro family hues
+  ui_ok: "#a9dcc4"          # soft green (spectrum-shifted a9dc76)
+  ui_warn: "#fce566"        # yellow
+  ui_error: "#fb4a77"       # red (spectrum-shifted ff6188)
+
+  # CLI / TUI chrome
+  prompt: "#fd9353"
+  input_rule: "#fd9353"
+  response_border: "#38decf" # cyan of the family (78dce8 shifted)
+  status_bar_bg: "#191919"   # frame color
+  status_bar_text: "#f7f1ff"
+  status_bar_good: "#a9dcc4"
+  status_bar_warn: "#fce566"
+  status_bar_critical: "#fb4a77"
+  session_label: "#fce566"
+  session_border: "#363537"
+
+  # Code syntax highlights (Matchar monokai pro roles)
+  syntax_string: "#a9dcc4"
+  syntax_number: "#ab9af2"   # purple (ab9df2 shifted)
+  syntax_keyword: "#fb4a77"
+  syntax_comment: "#8b888f"
+
+branding:
+  agent_name: Hermes Agent
+  prompt_symbol: "❯"
+
+tool_prefix: "┊"
